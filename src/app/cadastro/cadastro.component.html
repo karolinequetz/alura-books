@@ -123,7 +123,7 @@
         pattern="^(\d{5})(-?\d{3})$"
         minlength="8"
         maxlength="9"
-        (blur)="consultaCEP($event)"
+        (blur)="consultaCEP($event, f)"
       />
       <div *ngIf="(cep?.invalid && cep?.touched) || cep?.dirty">
         <app-mensagem
@@ -181,7 +181,7 @@
       </div>
       <div class="formulario__campo">
         <label class="campo__etiqueta" for="complemento">Complemento</label>
-        <input name="complemento" id="complemento" class="campo__escrita" />
+        <input name="complemento" id="complemento" class="campo__escrita" ngModel />
       </div>
     </div>
     <div class="formulario__campo">
