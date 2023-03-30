@@ -1,27 +1,38 @@
-# FormsReativos
+# Alura books - Formulário
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
-## Development server
+Este projeto foi desenvolvido durante o curso da Alura
+ https://cursos.alura.com.br/formacao-angular-14. 
+ 
+## Índice
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- [Visão geral](#visão-geral)
+  - [O projeto](#o-projeto)
+  - [Screenshot](#screenshot)
+- [Processo de desenvolvimento](#desenvolvimento-processo)
+  - [Construído com](#construído-com)
+- [Codificado por](#coded-by)
 
-## Code scaffolding
+## Visão geral
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### O projeto
 
-## Build
+- Validação dos campos 
+- Autocomplete de endereço através do CEP. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+### Captura de tela
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![](./alura.png)
+![](./alura0.png)
 
-## Running end-to-end tests
+## Processo de desenvolvimento
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Construído com
 
-## Further help
+- Angular 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Codificado por
+
+- LinkedIn - [@karolinequetz](https://www.linkedin.com/in/karolinequetz)
